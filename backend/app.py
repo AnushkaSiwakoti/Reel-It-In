@@ -24,7 +24,7 @@ def get_gpt_response(prompt):
     }
 
     payload = {
-        "model": "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
+        "model": "openai/gpt-oss-120b",
         "messages": [
             {
                 "role": "system",
