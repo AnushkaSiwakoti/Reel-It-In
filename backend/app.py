@@ -24,7 +24,7 @@ def get_gpt_response(prompt):
     }
 
     payload = {
-        "model": "meta-llama/Llama-3-8b-chat-hf",
+        "model": "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
         "messages": [
             {
                 "role": "system",
